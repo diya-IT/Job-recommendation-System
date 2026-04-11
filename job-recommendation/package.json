@@ -13,6 +13,7 @@
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-slot": "^1.2.4",
     "autoprefixer": "^10.4.23",
+    "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "class-variance-authority": "^0.7.1",

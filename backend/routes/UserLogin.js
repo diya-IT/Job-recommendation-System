@@ -64,6 +64,7 @@ router.post("/send-otp", async (req, res) => {
   }
 });
 
+
 /* ================= VERIFY OTP ================= */
 router.post("/verify-otp", async (req, res) => {
   try {
@@ -94,8 +95,8 @@ router.post("/verify-otp", async (req, res) => {
 
     res.status(200).json({
       message: "Login successful",
-      userId: user._id,
-      role: user.role,
+  userId: user._id,
+  role: user.role,
     });
   } catch (error) {
     console.error("VERIFY OTP ERROR:", error);
